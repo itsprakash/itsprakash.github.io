@@ -10,6 +10,8 @@
 </head>
 <meta charset="UTF-8">
 <body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js" type="text/javascript"></script>
+
 <div class="my_name">
 	<p class="prakash_mansuria">
 		Prakash Mansuria
@@ -54,11 +56,11 @@
 		Contact Me
 	</p>
 </div>
-<form enctype="text/plain" method="get"  action="mailto:pmansuria@gmail.com">
-	<input class="your_name" type="text" name="first_name" placeholder="Your Name"><br>
-	<input class="email" type="text" name="email" placeholder="Email"><br>
-	<textarea class="message" placeholder="Write message..."></textarea>
-	<input class="send_button" type="submit" value="Send"><br>
+<form enctype="text/plain">
+	<input class="your_name" type="text" name="first_name" placeholder="Your Name" id="name"><br>
+	<input class="email" type="text" name="email" placeholder="Subject" id="subject"><br>
+	<textarea class="message" placeholder="Write message..." id="message"></textarea>
+	<input class="send_button" type="button" value="Send" id="sendbtn" onclick="foo()"><br>
 </form>
 	<p class="lazy">
 		Lazy to fill the form?
@@ -72,5 +74,19 @@
 		<span class="italic">built by</span> <a href="https://www.facebook.com/pmansuria" target="_blank"> Prakash Mansuria </a>
 	</p>
 </footer>
+<script>
+function foo(){
+	name = $("#name").val();
+	subject = $("#subject").val();
+	message = $("#message").val();
+	mail = {
+		Subject: subject,
+		Body: message + "\n" + "From " + name
+	};
+	params = "mailto:pmansuria@gmail.com?" + $.param(mail);
+	window.location.href = params;
+}
+
+</script>
 </body>
 </html>
