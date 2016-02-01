@@ -1,0 +1,266 @@
+body {
+      background: url("background.png");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-color: transparent;
+      }
+
+      a{
+            text-decoration: none;
+            color: #993333;
+      }
+      .prakash_mansuria{
+        font-family: 'Patua One', cursive;
+        margin-left: 1%;
+        position: absolute;
+        display: block;
+        color: #993333;
+        font-size: 190%;
+      }
+      .UI_UX{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 130%;
+        margin-left: 11%;
+        position: absolute;
+        display: block;
+        margin-top: 25%;
+      }
+      .my_name{
+        width: 22%;
+        height: 17%;
+        background: transparent;
+        background-size: 100%;
+    position: fixed;
+    display: block;
+    left: 5%;
+      }
+      .about_me a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: white;
+      	float: left;
+      	position: absolute;
+      	margin-left: 25%;
+      	background: transparent;
+      	font-size: 140%;
+      	margin-left: 20%;
+      	margin-top: 0%;
+      }
+      .my_work a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: white;
+      	float: left;
+      	position: absolute;
+      	margin-left: 45%;
+      	background: transparent;
+      	font-size: 140%;
+      	margin-left: 41%;
+      	margin-top: 0%;
+      }
+      .gallery a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: white;
+      	float: left;
+      	position: absolute;
+      	margin-left: 60%;
+      	margin-top: 0%;
+      	background: transparent;
+      	font-size: 140%;
+      }
+      .contact_me a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: #ff9966;
+      	float: left;
+      	position: absolute;
+      	margin-left: 75%;
+      	margin-top: 0%;
+      	font-size: 140%;
+      }
+       .about_me:hover a{
+      	color: red;
+      	cursor: pointer;
+            
+      }
+      .my_work:hover a{
+      	color: #ff9966;
+      	cursor: pointer;
+            text-decoration: none;
+      }
+      .gallery:hover a{
+      	color: #ff9966;
+      	cursor: pointer;
+            text-decoration: none;
+      }
+      .contact_me:hover {
+      	color: #ff9966;
+      	cursor: none;
+      }
+     
+      .header{
+      	
+      	width: 50%;
+      	height: 8.8%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 4.5%;
+		left: 50%;
+      }
+      .photo{
+      	width: 12%;
+      	height: 26%;
+      	background: green;
+      	background: url('my_photo.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 34%;
+		left: 13%;
+      }
+      .links{
+      	width: 15%;
+      	height: 18%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 63%;
+		left: 13%;
+      }
+      .linkedin{
+      	width: 7%;
+      	height: 6%;
+      	background: transparent;
+      	background: url('linkedin_icon.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 63%;
+		left: 13.5%;
+      }
+      .facebook{
+      	width: 7.3%;
+      	height: 6%;
+      	background: transparent;
+      	background: url('facebook_icon.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 69%;
+		left: 13.5%;
+      }
+      .twitter{
+      	width: 6.3%;
+      	height: 6%;
+      	background: transparent;
+      	background: url('twitter_icon.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 75%;
+		left: 13.5%;
+      }
+      .contact_me_text{
+      width: 17.5%;
+            height: 7%;
+            background: transparent;
+            background-size: 100%;
+            position: fixed;
+            display: block;
+            top: 30%;
+            left: 44%;
+     }
+     .contact_me_1{
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+            color: black;
+            float: left;
+            position: fixed;
+            font-size: 30px;
+            top: 30%;
+     }
+     .your_name{
+    width: 250px;
+    height: 10px;
+    padding: 12px 20px;
+    border: 2px solid #ff9966;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 13px;
+    resize: none;
+    margin-left: 700px;
+    margin-top: 300px;
+    text-align: left;
+}
+.email{
+      width: 300px;
+    height: 10px;
+    padding: 12px 20px;
+    border: 2px solid #ff9966;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 13px;
+    resize: none;
+    margin-left: 700px;
+    margin-top: 5px;
+    text-align: left;
+}
+.message{
+      width: 300px;
+    height: 50px;
+    padding: 12px 20px;
+    border: 2px solid #ff9966;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 13px;
+    resize: none;
+    margin-left: 700px;
+    margin-top: 10px;
+    text-align: left;
+}
+.send_button{
+      width: 95px;
+      height: 40px;
+      background-color: transparent;
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      border: 2px solid #ff9966;
+      border-radius: 6px;
+      margin-left: 947px;
+      margin-top: 10px;
+
+}
+.send_button:hover{
+      background-color: #ff9966;
+      cursor: pointer;
+}
+.lazy{
+      font-size: 20px;
+      margin-left: 700px;
+      margin-top: 10px;
+}
+.pmansuria{
+      text-decoration: none;
+      color: black;
+}
+.pmansuria:hover{
+      color: #ff9966;
+      cursor: pointer;
+}
+.email_me{
+      background: transparent;
+      background-size: 100%;
+      margin-left: 700px;
+}
+.italic{
+      font-style: italic;
+      text-decoration: none;
+     }
+footer{
+      display: block;
+      position: fixed;
+      top: 95%;
+      left: 37%;
+     }

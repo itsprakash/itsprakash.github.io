@@ -1,0 +1,768 @@
+body {
+
+      background: url("background.png");
+
+          background-size: 100% 100%;
+
+          background-repeat: no-repeat;
+
+          background-attachment: fixed;
+
+          background-color: transparent;
+
+      }
+      a{
+        text-decoration: none;
+        color: #993333;
+      }
+      .prakash_mansuria{
+            font-family: 'Patua One', cursive;
+            margin-left: 1%;
+        position: absolute;
+        display: block;
+            color: #993333;
+            font-size: 190%;
+      }
+      .UI_UX{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 130%;
+            margin-left: 11%;
+        position: absolute;
+        display: block;
+        margin-top: 25%;
+      }
+      .my_name{
+            width: 22%;
+            height: 17%;
+            background: transparent;
+            background-size: 100%;
+            position: fixed;
+            display: block;
+            left: 5%;
+      }
+
+
+
+      .about_me a{
+
+      	font-family: 'Titillium Web', sans-serif;
+
+      	color: white;
+
+      	float: left;
+
+      	position: absolute;
+
+      	margin-left: 25%;
+
+      	background: transparent;
+
+      	font-size: 140%;
+
+      	margin-left: 20%;
+
+      	margin-top: 0%;
+
+      }
+
+      .my_work a{
+
+      	font-family: 'Titillium Web', sans-serif;
+
+      	color: white;
+
+      	float: left;
+
+      	position: absolute;
+
+      	margin-left: 45%;
+
+      	background: transparent;
+
+      	font-size: 140%;
+
+      	margin-left: 41%;
+
+      	margin-top: 0%;
+
+      }
+
+      .gallery a{
+
+      	font-family: 'Titillium Web', sans-serif;
+
+      	color: #ff9966;
+
+      	float: left;
+
+      	position: absolute;
+
+      	margin-left: 60%;
+
+      	margin-top: 0%;
+
+      	background: transparent;
+
+      	font-size: 140%;
+
+      }
+
+      .contact_me a{
+
+      	font-family: 'Titillium Web', sans-serif;
+
+      	color: white;
+
+      	float: left;
+
+      	position: absolute;
+
+      	margin-left: 75%;
+
+      	margin-top: 0%;
+
+      	background: transparent;
+
+      	font-size: 140%;
+
+      }
+
+       .about_me:hover a{
+
+      	color: #ff9966;
+
+      	cursor: pointer;
+
+        text-decoration: none;
+
+      }
+
+      .my_work:hover a{
+
+      	color: #ff9966;
+
+      	cursor: pointer;
+
+        text-decoration: none;
+
+      }
+
+      .gallery:hover{
+
+      	color: #ff9966;
+
+      	cursor: pointer;
+
+        text-decoration: none;
+
+      }
+
+      .contact_me:hover a{
+
+      	color: #ff9966;
+
+      	cursor: pointer;
+
+        text-decoration: none;
+
+      }
+
+      .header{
+
+      	width: 50%;
+
+      	height: 8.8%;
+
+      	background: transparent;
+
+      	background-size: 100%;
+
+	 	position: fixed;
+
+		display: block;
+
+		top: 4.5%;
+
+		left: 50%;
+
+      }
+
+      .photo{
+
+      	width: 12%;
+
+      	height: 26%;
+
+      	background: transparent;
+
+      	background: url('my_photo.png') no-repeat 100%;
+
+      	background-size: 100%;
+
+	 	position: fixed;
+
+		display: block;
+
+		top: 34%;
+
+		left: 13%;
+
+      }
+
+      .links{
+
+      	width: 15%;
+
+      	height: 18%;
+
+      	background: transparent;
+
+      	background-size: 100%;
+
+	 	position: fixed;
+
+		display: block;
+
+		top: 63%;
+
+		left: 13%;
+
+      }
+
+      .linkedin{
+
+      	width: 7%;
+
+      	height: 6%;
+
+      	background: transparent;
+
+      	background: url('linkedin_icon.png') no-repeat 100%;
+
+      	background-size: 100%;
+
+	 	position: fixed;
+
+		display: block;
+
+		top: 63%;
+
+		left: 13.5%;
+
+      }
+
+      .facebook{
+
+      	width: 7.3%;
+
+      	height: 6%;
+
+      	background: transparent;
+
+      	background: url('facebook_icon.png') no-repeat 100%;
+
+      	background-size: 100%;
+
+	 	position: fixed;
+
+		display: block;
+
+		top: 69%;
+
+		left: 13.5%;
+
+      }
+
+      .twitter{
+
+      	width: 6.3%;
+
+      	height: 6%;
+
+      	background: transparent;
+
+      	background: url('twitter_icon.png') no-repeat 100%;
+
+      	background-size: 100%;
+
+	 	position: fixed;
+
+		display: block;
+
+		top: 75%;
+
+		left: 13.5%;
+
+      }
+
+      .image_box{
+
+            width: 517px;
+
+            height: 50px;
+
+            background: transparent;
+
+            background-size: 100%;
+
+            z-index: -1;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 650px;
+
+            overflow: visible;
+
+      }
+
+      .image_1{
+
+            background-size: 130%;
+
+            width: 50px;
+
+            height: 50px;
+
+            z-index: 1;
+
+            position: fixed;
+
+            top: 600px;
+
+            left: 663px;
+
+            overflow: visible;
+
+      }
+
+      .image_1:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+      }
+
+      .image_2{
+
+            width: 50px;
+
+            height: 50px;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 726px;
+
+      }
+
+      .image_2:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+      .image_3{
+
+            width: 50px;
+
+            height: 50px;
+
+            background: red;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 789px;
+
+      }
+
+      .image_3:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+      .image_4{
+
+            width: 50px;
+
+            height: 50px;
+
+            background: red;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 852px;
+
+      }
+
+      .image_4:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+      .image_5{
+
+            width: 50px;
+
+            height: 50px;
+
+            background: red;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 915px;
+
+      }
+
+      .image_5:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+      .image_6{
+
+            width: 50px;
+
+            height: 50px;
+
+            background: red;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 978px;
+
+      }
+
+      .image_6:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+      .image_7{
+
+            width: 50px;
+
+            height: 50px;
+
+            background: red;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 1041px;
+
+      }
+
+      .image_7:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+      .image_8{
+
+            width: 50px;
+
+            height: 50px;
+
+            background: red;
+
+            background-size: 100%;
+
+            position: fixed;
+
+            display: block;
+
+            top: 600px;
+
+            left: 1104px;
+
+      }
+
+      .image_8:hover{
+
+            cursor: pointer;
+
+            z-index: 2;
+
+            box-shadow: 5px 5px 35px #696969;
+
+      }
+
+
+
+      .div_main_bigimage{
+
+            position: fixed;
+
+            width: 735px;
+
+            height: 452px;
+
+            margin-left: 39%;
+
+            margin-top: 8%;
+
+            z-index: 2;
+
+            border-radius: 6px;
+
+            visibility: visible;  
+
+            background-color: transparent;   
+
+      }
+
+      .image_box_1{
+
+            position: relative;
+
+            width: 663px;
+
+            height: 442px;
+
+            margin-left: 29px;
+
+            margin-top: 0px;
+
+            z-index: 2;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+            visibility: visible;
+
+      }
+
+      .image_box_2{
+
+            position: relative;
+
+            display: none;
+
+            width: 589px;
+
+            height: 442px;
+
+            margin-left: 69px;
+
+            margin-top: 0px;
+
+            z-index: 3;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+
+      .image_box_3{
+
+            position: relative;
+
+            width: 663px;
+
+            height: 442px;
+
+            margin-left: 29px;
+
+            margin-top: 0px;
+
+            z-index: 4;
+
+            display: none;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+
+      .image_box_4{
+
+            position: relative;
+
+            width: 660px;
+
+            height: 442px;
+
+           margin-left: 29px;
+
+            margin-top: 0px;
+
+            z-index: 4;
+
+            display: none;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+
+      .image_box_5{
+
+            position: relative;
+
+            width: 589px;
+
+            height: 442px;
+
+            margin-left: 69px;
+
+            margin-top: 0px;
+
+            z-index: 4;
+
+            display: none;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+
+      .image_box_6{
+
+            position: relative;
+
+            width: 647px;
+
+            height: 442px;
+
+           margin-left: 38px;
+
+            margin-top: 0px;
+
+            z-index: 4;
+
+            display: none;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+
+      .image_box_7{
+
+            position: relative;
+
+            width: 725px;
+
+            height: 442px;
+
+           margin-left: 0px;
+
+            margin-top: 0px;
+
+            z-index: 4;
+
+            display: none;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+
+      .image_box_8{
+
+            position: relative;
+
+            width: 589px;
+
+            display: none;
+
+            height: 442px;
+
+            margin-left: 70px;
+
+            margin-top: 0px;
+
+            z-index: 4;
+
+            border: 5px solid white;
+
+            border-radius: 6px;
+
+      }
+      .italic{
+      font-style: italic;
+      text-decoration: none;
+     }
+      footer{
+      display: block;
+      position: fixed;
+      top: 95%;
+      left: 37%;
+     }
+

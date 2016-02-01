@@ -1,0 +1,212 @@
+body {
+      background: url("background.png");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-color: transparent;
+      }
+      a{
+        text-decoration: none;
+        color: #993333;
+      }
+.prakash_mansuria{
+      	font-family: 'Patua One', cursive;
+      	margin-left: 1%;
+        position: absolute;
+        display: block;
+      	color: #993333;
+      	font-size: 190%;
+        z-index: 1;
+      }
+      .UI_UX{
+      	font-family: 'Orbitron', sans-serif;
+      	font-size: 130%;
+      	margin-left: 11%;
+        position: absolute;
+        display: block;
+        margin-top: 25%;
+        z-index: 1;
+      }
+      .my_name{
+      	width: 22%;
+      	height: 17%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		left: 5%;
+      }
+      .about_me a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: #ff9966;
+      	float: left;
+      	position: absolute;
+      	margin-left: 25%;
+      	background: transparent;
+      	font-size: 140%;
+      	margin-left: 20%;
+      	margin-top: 0%;
+      }
+      .my_work a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: white;
+      	float: left;
+      	position: absolute;
+      	margin-left: 45%;
+      	background: transparent;
+      	font-size: 140%;
+      	margin-left: 41%;
+      	margin-top: 0%;
+      }
+      .gallery a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: white;
+      	float: left;
+      	position: absolute;
+      	margin-left: 60%;
+      	margin-top: 0%;
+      	background: transparent;
+      	font-size: 140%;
+      }
+      .contact_me a{
+      	font-family: 'Titillium Web', sans-serif;
+      	color: white;
+      	float: left;
+      	position: absolute;
+      	margin-left: 75%;
+      	margin-top: 0%;
+      	background: transparent;
+      	font-size: 140%;
+      }
+       .about_me:hover{
+      	color: #ff9966;
+      	cursor: pointer;
+        text-decoration: none;
+      }
+      .my_work:hover a{
+      	color: #ff9966;
+      	cursor: pointer;
+        text-decoration: none;
+      }
+      .gallery:hover a{
+      	color: #ff9966;
+      	cursor: pointer;
+        text-decoration: none;
+      }
+      .contact_me:hover a{
+      	color: #ff9966;
+      	cursor: pointer;
+        text-decoration: none;
+      }
+     
+      .header{
+      	
+      	width: 50%;
+      	height: 8.8%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 4.5%;
+		left: 50%;
+      }
+      .photo{
+      	width: 12%;
+      	height: 26%;
+      	background: transparent;
+      	background: url('my_photo.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 34%;
+		left: 13%;
+      }
+      .links{
+      	width: 15%;
+      	height: 18%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 63%;
+		left: 13%;
+      }
+      .linkedin{
+      	width: 7%;
+      	height: 6%;
+      	background: transparent;
+      	background: url('linkedin_icon.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 63%;
+		left: 13.5%;
+      }
+      .facebook{
+      	width: 7.3%;
+      	height: 6%;
+      	background: transparent;
+      	background: url('facebook_icon.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 69%;
+		left: 13.5%;
+      }
+      .twitter{
+      	width: 6.3%;
+      	height: 6%;
+      	background: transparent;
+      	background: url('twitter_icon.png') no-repeat 100%;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 75%;
+		left: 13.5%;
+      }
+      .about_me_text{
+     	width: 14.7%;
+      	height: 7%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 30%;
+		left: 44%;
+     }
+     .about_me_content{
+     	width: 45%;
+      	height: 45%;
+      	background: transparent;
+      	background-size: 100%;
+	 	position: fixed;
+		display: block;
+		top: 40%;
+		left: 50%;
+     }
+     .about_me_1{
+     	font-family: 'Montserrat', sans-serif;
+     	text-decoration: none;
+      	color: black;
+      	float: left;
+      	position: fixed;
+      	font-size: 30px;
+      	top: 30%;
+     }
+      .about_me_content_1{
+     	font-size: 130%;
+     }
+     .italic{
+     	font-style: italic;
+     	text-decoration: none;
+     }
+     footer{
+      display: block;
+      position: fixed;
+      top: 95%;
+      left: 37%;
+     }
+      
+      
+
+      
